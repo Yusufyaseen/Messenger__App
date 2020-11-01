@@ -1,0 +1,35 @@
+.message {
+  margin: 10px;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  max-width: 480px;
+  word-wrap: break-word;
+  border-radius: 15px !important;
+}
+.message_user {
+  margin-left: auto;
+  padding: none;
+}
+.message_useCard {
+  background-color: #0b81ff !important;
+
+  color: #fff !important;
+}
+.message_questCard {
+  background-color: #e9e9e9 !important;
+}
+.sender:after {
+  content: "  ";
+  font-weight: normal;
+  font-size: 20px;
+}
+.sender {
+  font-weight: bold;
+  font-size: 17px;
+  position: relative;
+  bottom: 1px;
+  right: 9px;
+  color: rgb(231, 2, 2);
+  display: inline-block;
+}

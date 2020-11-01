@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  text-align: center;
+  background-color: #e9e9eb;
+  width: 94%;
+  align-items: center;
+  height: 80px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.app__formControl {
+  display: flex !important;
+  flex: 0.8 !important;
+  flex-direction: row !important;
+  position: relative;
+}
+.input {
+  flex: 1;
+}
+.button {
+  flex: 0;
+  top: 4px;
+}
+.app__name {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 450;
+}
+.app__username {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 630;
+  color: rgb(197, 5, 5);
+}
